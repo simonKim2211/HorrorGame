@@ -1,0 +1,316 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.48f1 (8bf49c377ebf) revision 9172124'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32714 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity Hub\2022.3.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Desktop/Folders/Github things/HorrorGame/Horror Game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62187
+Successfully changed project path to: D:/Desktop/Folders/Github things/HorrorGame/Horror Game
+D:/Desktop/Folders/Github things/HorrorGame/Horror Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18668]  Target information:
+
+Player connection [18668]  * "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 3498892848 [EditorId] 3498892848 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8G740QQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18668] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18668] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.48f1 (8bf49c377ebf)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Hub/2022.3.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Desktop/Folders/Github things/HorrorGame/Horror Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity Hub/2022.3.48f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Hub/2022.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Unity Hub/2022.3.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity Hub/2022.3.48f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/Unity Hub/2022.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005957 seconds.
+- Loaded All Assemblies, in  0.376 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.300 seconds
+Domain Reload Profiling: 676ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.528 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (575ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (0.8 MB). Loaded Objects now: 3943.
+Memory consumption went from 135.1 MB to 134.2 MB.
+Total: 3.314800 ms (FindLiveObjects: 0.345700 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.543600 ms  DeleteObjects: 0.339800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12881.620241 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Smoothness.png
+  artifactKey: Guid(f470f9eb9cd4a0442b58c72a0956aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Smoothness.png using Guid(f470f9eb9cd4a0442b58c72a0956aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'affcf4ee63daa4603e61e4eb59164643') in 0.065376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.183467 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/BathroomTiles_HDRPShader.mat
+  artifactKey: Guid(5d9b515fee1e9d74d9b10c870f910131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/BathroomTiles_HDRPShader.mat using Guid(5d9b515fee1e9d74d9b10c870f910131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5321303bad4e3bd3b89cee61096dbf4') in 0.135262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/GrassClumps_HDRPShader.mat
+  artifactKey: Guid(ff4291a22556cce47be659c8586047d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/GrassClumps_HDRPShader.mat using Guid(ff4291a22556cce47be659c8586047d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '159fa1cbbc44a97d8e9b2bbda320c9c5') in 0.038500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/WoodenFlooring_HDRPShader.mat
+  artifactKey: Guid(a12a78f7ab37cab4a8943a75bf232362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/WoodenFlooring_HDRPShader.mat using Guid(a12a78f7ab37cab4a8943a75bf232362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ff23337b1a4e1f3929a5d6e9a776869') in 0.058848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/WorldMaterialsFree/HDRPMaterials/BrushedIron_HDRPShader.mat
+  artifactKey: Guid(4c98c5ad59bf55649be5e3d1990a2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/HDRPMaterials/BrushedIron_HDRPShader.mat using Guid(4c98c5ad59bf55649be5e3d1990a2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e6fff2e5b88e5048fbf22e79c672bd8') in 0.018455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.656633 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/WoodenFlooring/WoodenFlooring_Smoothness.png
+  artifactKey: Guid(671ffec92ccdc454bb4a1962709fdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/WoodenFlooring/WoodenFlooring_Smoothness.png using Guid(671ffec92ccdc454bb4a1962709fdcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a31227f2b7627d5f0703a7902c8c0da') in 0.020200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.209900 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_metallic.png
+  artifactKey: Guid(7a0e85a29815b734bb3082678d06853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_metallic.png using Guid(7a0e85a29815b734bb3082678d06853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd2000ee0351ab70bfffaa927bcac726') in 0.013918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_smoothness.png
+  artifactKey: Guid(06e741348f141804faa9421cd9aa2c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_smoothness.png using Guid(06e741348f141804faa9421cd9aa2c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de1e20b4ce8972623956b1292c304ebd') in 0.019922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.619720 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Metallic.png
+  artifactKey: Guid(be2f8d770f6be0d4fae301de933abab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Metallic.png using Guid(be2f8d770f6be0d4fae301de933abab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1cb7cdbaaedbdcf21215b3d01828187f') in 0.029725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_AO.png
+  artifactKey: Guid(9ae39f2e8316a2246a5a4c3bf6c2ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_AO.png using Guid(9ae39f2e8316a2246a5a4c3bf6c2ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71340e463fd7ff9b8c619b1ae284fc95') in 0.020994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.649270 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/BasketWeaveBricks/BasketWeaveBricks_Smoothness.png
+  artifactKey: Guid(b05bb9ac27530194f9ce4086ccac645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/BasketWeaveBricks/BasketWeaveBricks_Smoothness.png using Guid(b05bb9ac27530194f9ce4086ccac645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53a1db4e26e9591353b0cb4c4470a1a5') in 0.018131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.688881 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_smoothness.png
+  artifactKey: Guid(50f22ded93bf5a3459011d427639a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_smoothness.png using Guid(50f22ded93bf5a3459011d427639a3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b2f015a34a1b1a5fb73e5baeab80e67') in 0.019296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_ao.png
+  artifactKey: Guid(860be524c0b9c6143b310603dc363a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldMaterialsFree/Resource Files/BathroomTiles/BathroomTiles_ao.png using Guid(860be524c0b9c6143b310603dc363a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b52d15c53c04ee2e8b7b5a636f69562f') in 0.014449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
